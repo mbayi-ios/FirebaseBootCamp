@@ -6,9 +6,14 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct FirebaseBootCampApp: App {
+    init() {
+        FirebaseApp.configure()
+        print("firebase configured")
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
