@@ -17,6 +17,9 @@
 		CD3521C12A71BD1600FC4364 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CD3521C02A71BD1600FC4364 /* FirebaseAuth */; };
 		CD3521C42A71BDA000FC4364 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3521C32A71BDA000FC4364 /* AuthenticationView.swift */; };
 		CD3521C62A71BE8700FC4364 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3521C52A71BE8700FC4364 /* SignInEmailView.swift */; };
+		CD3521C82A72484C00FC4364 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3521C72A72484C00FC4364 /* AuthenticationManager.swift */; };
+		CD3521CA2A7262C900FC4364 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3521C92A7262C900FC4364 /* RootView.swift */; };
+		CD3521CC2A72664800FC4364 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3521CB2A72664800FC4364 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		CD3521B82A71B82800FC4364 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CD3521C32A71BDA000FC4364 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		CD3521C52A71BE8700FC4364 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
+		CD3521C72A72484C00FC4364 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		CD3521C92A7262C900FC4364 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		CD3521CB2A72664800FC4364 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 			children = (
 				CD3521C32A71BDA000FC4364 /* AuthenticationView.swift */,
 				CD3521C52A71BE8700FC4364 /* SignInEmailView.swift */,
+				CD3521C72A72484C00FC4364 /* AuthenticationManager.swift */,
+				CD3521C92A7262C900FC4364 /* RootView.swift */,
+				CD3521CB2A72664800FC4364 /* SettingsView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -177,9 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3521CC2A72664800FC4364 /* SettingsView.swift in Sources */,
 				CD3521AD2A71B73900FC4364 /* ContentView.swift in Sources */,
 				CD3521AB2A71B73900FC4364 /* FirebaseBootCampApp.swift in Sources */,
+				CD3521CA2A7262C900FC4364 /* RootView.swift in Sources */,
 				CD3521C42A71BDA000FC4364 /* AuthenticationView.swift in Sources */,
+				CD3521C82A72484C00FC4364 /* AuthenticationManager.swift in Sources */,
 				CD3521C62A71BE8700FC4364 /* SignInEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
